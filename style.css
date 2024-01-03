@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 25%;
+    padding: 25px;
+}
+
+nav {
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+
+}
+
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.introductionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.photoContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    margin-right: 40px;
+}
+
+.photo:hover {
+    box-shadow: 10px 10px 0 #00fffc, -10px -10px #fc00ff, 0 0 0 #515151;
+}
+
+h1 {
+
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff, 0 0 0 #515151;
+
+}
+
+.menuButton:hover {
+    transform: scale(1.1);
+
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: relative;
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff, 0.025em 0.04em 0 #515151;
+    animation: glitch 725ms infinite;
+}
+
+@keyframes glitch {
+    0% {
+        text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff, 0.025em 0.04em 0 #515151;
+    }
+
+    15% {
+        text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff, 0.025em 0.04em 0 #515151;
+    }
+
+    49% {
+        text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff, -0.05em -0.05em 0 #515151;
+    }
+
+    50% {
+        text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff, 0 -0.04em 0 #515151;
+    }
+
+    100% {
+        text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff, -0.04em -0.025em 0 #515151;
+    }
+}
+
+.descriptionText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+    font-size: 300%;
+}
+
+.modal {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-self: center;
+
+}
+
+.modal::backdrop {
+    background-color: rgba(36, 35, 35, 0.615);
+
+}
+
+.modalContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 200px;
+}
+
+.modalBtnContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+    width: 100%;
+}
+
+.menuButton {
+    border: 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: xx-large;
+    transition: color 0.2s;
+}
+
+p,
+h3 {
+    color: #4F4B4B;
+}
+
+
+a {
+    color: white;
+    font-size: large;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 25%;
+    padding: 25px;
+}
+
+.techSkills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+table {
+    align-items: center;
+    justify-content: center;
+}
+
+.skill {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+.project {
+    display: flex;
+    margin: 40px 20px;
+}
+
+.projectInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    font-size: x-large;
+
+}
+
+.contactInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.contactInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}

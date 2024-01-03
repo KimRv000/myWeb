@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Lato&family=Montserrat:wght@300;900&family=Open+Sans&family=Raleway:wght@100&display=swap"
+        rel="stylesheet">
+    <title>Kimberly Rivera - web developer</title>
+</head>
+
+<body>
+    <header id="header">
+        <section class="menu">
+            <button id="skillsBtn" class="menuButton"> Skills</button>
+            <button id="projectsBtn" class="menuButton">Projects</button>
+            <button id="contactBtn" class="menuButton">Contact</button>
+        </section>
+    </header>
+
+    <main class="profileContainer" id="profileMain">
+        <section class="introductionContainer">
+            <section class="profilePic" id="profilePic">
+                <img class="photo" src="./images/profileImg.png" alt="profile-pic" />
+            </section>
+            <section class="descriptionText" id="description">
+                <article>
+                    <h3>Hi! </h3>
+                    <p>My name is </p>
+                    <h3>Kimberly Rivera </h3>
+                </article>
+                <article>
+                    <p>I'm a creative and enthusiastic</p>
+                </article>
+                <article>
+                    <h1>web developer</h1>
+                </article>
+            </section>
+        </section>
+
+        <article class="modalContainer">
+            <dialog class="modal" id="modalSkills">
+                <article class="modalBtnContainer">
+                    <button class="menuButton" id="closeModalBtnSkills">x</button>
+                </article>
+                <h1>Skills</h1>
+                <section class="techSkills">
+                    <table>
+                        <tr>
+                            <th><img class="skill" src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png"
+                                    alt="html">
+                            </th>
+                            <th><img class="skill" src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+                                    alt="css">
+                            </th>
+                            <th><img class="skill" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+                                    alt="javaScript"></th>
+                            <th><img class="skill"
+                                    src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+                                    alt="react"></th>
+                        </tr>
+                        <tr>
+                            <td><img class="skill" src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
+                                    alt="gitHub">
+                            </td>
+                            <td><img class="skill" src="https://cdn-icons-png.flaticon.com/512/4494/4494740.png"
+                                    alt="git">
+                            </td>
+                            <td><img class="skill" src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png"
+                                    alt="figma"></td>
+                            <td><img class="skill"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
+                                    alt="VSC"></td>
+                        </tr>
+                    </table>
+                </section>
+            </dialog>
+        </article>
+        <article class="modalContainer">
+            <dialog class="modal" id="modalProjects">
+                <article class="modalBtnContainer">
+                    <button class="menuButton" id="closeModalBtnProjects">x</button>
+                </article>
+                <h1>Projects</h1>
+                <section class="project">
+                    <article>
+                        <img src="https://media.licdn.com/dms/image/D4E2DAQFBfjrnX5nGPg/profile-treasury-image-shrink_800_800/0/1689666878027?e=1704337200&v=beta&t=OeWu8VcK73vD6aAl3JkQUihGHDTqs-ls18hgUlEdaA4"
+                            alt="CruShhh">
+                    </article>
+                    <article>
+                        <h2>CruShhh</h2>
+                        <article class="projectInfo">
+                            <p>
+                                CruShhh is a web page where the user's messages can be encrypted,
+                                and decrypt using the Caesar Cipher method. An offset number and a text are required for
+                                the method to work.
+                            </p>
+                        </article>
+                        <article>
+                            <a href="https://kimrv000.github.io/Cesar-cipher/" target="_blank">Go to the website </a>
+                        </article>
+                    </article>
+                </section>
+                <section class="project">
+                    <article>
+                        <img src="https://media.licdn.com/dms/image/D4E2DAQF8IK-ndnsfAQ/profile-treasury-image-shrink_800_800/0/1689667695172?e=1704340800&v=beta&t=o73WIpFYtpeBoDc1yaOlAdeF2SZnjd7aFZI3GcOrTsE"
+                            alt="Data Lovers">
+                    </article>
+                    <article>
+                        <h2>Data Lovers - Studio Ghibli</h2>
+                        <article class="projectInfo">
+                            <p>
+                                It is a web page that processes, filters and organizes information about the animations
+                                of "Studio Ghibli" from the data extracted from its API, and then shows it to users
+                                through an interface easy to use and to view on any device because of its
+                                responsive design.
+                            </p>
+                        </article>
+                        <article>
+                            <a href="https://kimrv000.github.io/DEV008-data-lovers/" target="_blank">Go to the website
+                            </a>
+                        </article>
+                    </article>
+                </section>
+                <section class="project">
+                    <article>
+                        <img src="https://media.licdn.com/dms/image/D4D2DAQFnQOhEph0bJQ/profile-treasury-image-shrink_800_800/0/1699407548364?e=1704340800&v=beta&t=IFyKtw0B15k41OHgA6Wc5ZOgiE2wbNZ_XGNB78rXOM4"
+                            alt="MusiClub">
+                    </article>
+                    <article>
+                        <h2>MusiClub</h2>
+                        <article class="projectInfo">
+                            <p>
+                                MusiClub is a social network designed to connect people through their music taste,
+                                it was created from user stories and from high and low fidelity
+                                prototypes. It is a responsive Single-page Application (SPA) in which a router was
+                                implemented for navigation between the different views of the application using Firebase
+                                as an external service to manage application data.
+
+                                The website has a home screen that it gives you the option to get registered or to log
+                                in, in both
+                                options you can link your Google account to access. Once the session has started you
+                                will find the feed with a section where the user's email will appear to identify
+                                yourself at the top of the page, you will find a container where you can write a post
+                                and below you will be able to see the different publications created with the respective
+                                email of their author to identify it. You will be able to like and unlike posts and you
+                                will also be able to edit and delete your posts.
+                            </p>
+                            <br>
+                            <article>
+                                <a href="https://github.com/KimRv000/DEV008-social-network" target="_blank">Go to gitHub repository
+                                </a>
+                            </article>
+                        </article>
+                        <article>
+                            <img src="https://media.licdn.com/dms/image/D4D2DAQHqVt-jqQAIhA/profile-treasury-image-shrink_800_800/0/1699407761074?e=1704340800&v=beta&t=2LJjhMS6sIardfH5lbG0j-vwCRty70vI1nfHm8zfRUo"
+                                alt="MusiClubMainPage">
+                        </article>
+                    </article>
+        </article>
+        </section>
+        </dialog>
+        </article>
+        <article class="modalContainer">
+            <dialog class="modal" id="modalContact">
+                <article class="modalBtnContainer">
+                    <button class="menuButton" id="closeModalBtnContact">x</button>
+                </article>
+                <h1>Contact</h1>
+                <section class="contactInfoContainer">
+                    <section class="contactInfo">
+                        <article><img class="icon" src="https://cdn-icons-png.flaticon.com/512/888/888853.png"
+                                alt="mail"></article>
+                        <article>
+                            <h2>kimberlyrv.dev@gmail.com</h2>
+                        </article>
+                    </section>
+                    <section class="contactInfo">
+                        <article><a class="icon" href="https://www.linkedin.com/in/kimberly-rv"><img
+                                    src="./images/LinkedIn-logo.png" alt="linkedIn"></a></article>
+                        <article>
+                            <h2>LinkedIn</h2>
+                        </article>
+                    </section>
+                    <section class="contactInfo">
+                        <article><a class="icon" href="https://github.com/KimRv000"><img src="./images/github-logo.png"
+                                    alt="gitHub"></a></article>
+                        <article>
+                            <h2>gitHub</h2>
+                        </article>
+                    </section>
+                </section>
+            </dialog>
+        </article>
+    </main>
+    <footer>
+        <nav class="navBar">
+            <article>
+                <a class="icon" href="https://www.linkedin.com/in/kimberly-rv"><img src="./images/LinkedIn-logo.png"
+                        alt="linkedIn"></a>
+            </article>
+            <article>
+                <a class="icon" href="https://github.com/KimRv000"><img src="./images/github-logo.png" alt="gitHub"></a>
+            </article>
+        </nav>
+    </footer>
+    <script src="main.js" type="module"></script>
+</body>
+
+
+</html>
